@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Event Delegation</title>
+  <style>
+    * {
+      /* box-sizing: border-box; */
+    }
+    
+
+    .container {
+      border: 1px solid;
+      height: 10rem;
+      width: 10rem;
+      border-radius: 20px;
+      box-shadow: 10px 20px 30px;
+    }
+
+    .container>div:hover{
+      cursor: pointer;
+    }
+    .red1{
+      background-color: red;
+    }
+    .blue1{
+      background-color: blue;
+    }
+    .green1{
+      background-color: green;
+    }
+
+    .btn{
+      display: flex;
+      justify-items: center;
+      align-items: center;
+    }
+    .butn{
+      margin-top: 10px;
+      border-radius: 2px;
+      /* margin: 2px; */
+    }
+  </style>
+</head>
+
+<body>
+  <!-- <div class="mainContainer"> -->
+    <div class="container">
+      <!-- <div class="red">red</div>
+      <div class="blue">blue</div>
+      <div class="green">green</div> -->
+    </div>
+    <div class="btn">
+      <button class="butn red">RED</button>
+      <button class="butn blue">BLUE</button>
+      <button class="butn green">GREEN</button>
+    </div>
+  <!-- </div> -->
+  
+  
+  <script src="./quetion2.js">
+    // Write JS Solution Here =================================
+  </script>
+</body>
