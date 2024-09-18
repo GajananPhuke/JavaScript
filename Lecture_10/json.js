@@ -1,4 +1,4 @@
-// JSON
+ // JSON
 
 // JSON, which stands for JavaScript Object Notation, is a lightweight format for storing and transporting data.
 
@@ -56,7 +56,7 @@ var toys = {
   
   
   
-  console.log("Let's play with the:", dataRecieved.toy1.name); // Accessing the Teddy Bear
+//   console.log("Let's play with the:", dataRecieved.toy1.name); // Accessing the Teddy Bear
   
   
   // 4. Why Use JSON?
